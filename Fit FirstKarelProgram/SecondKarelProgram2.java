@@ -3,6 +3,7 @@ import stanford.karel.*;
 public class SecondKarelProgram2 extends Karel {
 	
 	public void run() {
+		fullTree();
 		
 		
 	}
@@ -65,14 +66,24 @@ public class SecondKarelProgram2 extends Karel {
 	}
 	
 	private void topTree() {
-		
+		if (facingNorth()) {
+			turnRight();
+			makeBeeperSquare();
+		}	
 	}
 	
-	private void descendTree() {
+	private void decendTree() {
+		move();
+		turnRight();
+		move();
+		turnLeft();
 		
 	}
 	
 	private void fullTree() {
+		climbTree();
+		topTree();
+		decendTree();
 		
 	}
 
