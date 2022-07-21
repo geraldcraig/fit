@@ -28,4 +28,19 @@ public class ArrayExample14 {
 
 class Test {
 	
+	int val1;
+	
+	int val2;
+	
+	public void setData(int c, int d) {
+		
+		val1 = c;
+		
+		val2 = d;
+	}
+	
+	public void displayData() {
+		System.out.println("val1 =" + val1 + "; val2 =" + val2 + "\n");
+	}
+	
 }
