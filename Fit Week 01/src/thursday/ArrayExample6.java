@@ -17,9 +17,11 @@ public class ArrayExample6 {
 		
 		System.out.println("Index to be removed : " + index);
 		
-		if (tensArray == null || index < 0 || index >= tensArray.length);
+		if (tensArray == null || index < 0 || index >= tensArray.length); {
 		
 		System.out.println("No element to delete");
+		
+		}
 		
 		List<Integer>tensList = IntStream.of(tensArray).boxed().collect(Collectors.toList());
 		
