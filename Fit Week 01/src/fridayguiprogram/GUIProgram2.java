@@ -1,15 +1,15 @@
-package friday;
+package fridayguiprogram;
 
 import javax.swing.JOptionPane;
 
-public class GUIProgram3 {
+public class GUIProgram2 {
 
 	public static void main(String[] args) {
 		
 		JOptionPane.showMessageDialog(null, 
 				"Hello",
-				"ErrorMessage",
-				JOptionPane.ERROR_MESSAGE);
+				"WarningMessage",
+				JOptionPane.WARNING_MESSAGE);
 
 	}
 

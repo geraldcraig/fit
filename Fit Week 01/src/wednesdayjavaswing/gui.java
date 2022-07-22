@@ -1,4 +1,4 @@
-package javaswing;
+package wednesdayjavaswing;
 
 import javax.swing.*;
 

@@ -1,4 +1,4 @@
-package friday;
+package fridayguiprogram;
 
 import javax.swing.JOptionPane;
 

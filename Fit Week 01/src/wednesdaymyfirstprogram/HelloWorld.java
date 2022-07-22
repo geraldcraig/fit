@@ -1,4 +1,4 @@
-package myfirstprogram;
+package wednesdaymyfirstprogram;
 
 public class HelloWorld {
 
