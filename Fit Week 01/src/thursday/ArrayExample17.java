@@ -4,7 +4,7 @@ public class ArrayExample17 {
 
 	public static void main(String[] args) {
 		
-		int[] jagged_array[][]= new int[2][];
+		int jagged_array[][]= new int[2][];
 		
 		jagged_array[0] = new int[4];
 		
