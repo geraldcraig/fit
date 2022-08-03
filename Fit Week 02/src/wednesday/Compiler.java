@@ -32,14 +32,15 @@ public class Compiler {
 
 	private static void mnuClose(char[] arr, char[] newArr) {
 		
-		int newWordLength = newWord.length();
+		int newWordLength;
 		
-		if (wordLength != newWordLength  ) {
+		
+		/*if (wordLength != newWordLength  ) {
 			System.out.println("Save file");
 
 		} else {
 			System.out.println("no changes");
-		}
+		}*/
 			
 	}
 

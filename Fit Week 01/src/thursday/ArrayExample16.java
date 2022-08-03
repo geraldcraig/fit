@@ -8,21 +8,21 @@ public class ArrayExample16 {
 		
 		final int length = 5;
 		
-		Generic_Array<Integer>intArray = new Generic_Array(length);
+		/*Generic_Array<Integer>intArray = new Generic_Array(length);
 		
 		for (int i = 0; i < length; i++)
 			
 			intArray.set(i, i * 2);
 		
-		System.out.println("Integer Array elements:" + intArray);
+		System.out.println("Integer Array elements:" + intArray);*/
 		
-		Generic_Array<String>strArray = new Generic_Array(length);
+		/*Generic_Array<String>strArray = new Generic_Array(length);
 		
 		for (int i = 0; i < length; i++)
 			
 			strArray.set(i, String.valueOf((char)(i + 97)));
 			
-			System.out.println("String Array Elements: " + strArray);
+			System.out.println("String Array Elements: " + strArray);*/
 		
 	}
 	
@@ -40,7 +40,7 @@ public class ArrayExample16 {
 			
 		}
 		
-		Eget(int i) {
+		/*Eget(int i) {
 			
 			final E e = (E)gen_Array[i];
 			
@@ -53,7 +53,7 @@ public class ArrayExample16 {
 			
 			gen_Array[i] = e;
 			
-		}
+		}*/
 		
 		@Override
 		
